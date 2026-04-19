@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg,#4facfe,#00f2fe);
+    min-height:100vh;
+    color:#fff;
+}
+
+/* Navbar */
+nav{
+    background:#0d1b52;
+    padding:15px 30px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.logo{
+    font-size:34px;
+    font-weight:bold;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:30px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:20px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#00f2fe;
+}
+
+/* Hero */
+.hero{
+    text-align:center;
+    padding:70px 20px 40px;
+}
+
+.hero h1{
+    font-size:55px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:22px;
+    max-width:900px;
+    margin:auto;
+    line-height:1.7;
+}
+
+.hero-buttons{
+    margin-top:30px;
+}
+
+.hero-buttons a{
+    display:inline-block;
+    margin:10px;
+    padding:14px 28px;
+    background:#0d1b52;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    font-size:18px;
+    transition:0.3s;
+}
+
+.hero-buttons a:hover{
+    background:#142c85;
+    transform:scale(1.05);
+}
+
+/* Cards */
+.features{
+    max-width:1300px;
+    margin:50px auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
+    padding:20px;
+}
+
+.card{
+    background:white;
+    color:#111;
+    padding:35px;
+    border-radius:18px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card h2{
+    margin-bottom:18px;
+    color:#0d1b52;
+}
+
+.card p{
+    font-size:18px;
+    line-height:1.6;
+}
+
+/* Content Pages */
+.page-section{
+    max-width:1200px;
+    margin:50px auto;
+    padding:20px;
+}
+
+.info-box{
+    background:white;
+    color:#111;
+    padding:30px;
+    border-radius:18px;
+    margin-bottom:25px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+
+.info-box h2{
+    color:#0d1b52;
+    margin-bottom:15px;
+}
+
+.info-box p, .info-box li{
+    font-size:18px;
+    line-height:1.7;
+}
+
+/* Footer */
+footer{
+    text-align:center;
+    padding:20px;
+    margin-top:50px;
+    background:#0d1b52;
+}

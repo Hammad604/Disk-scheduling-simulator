@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Algorithms</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <div class="logo">Disk Scheduler</div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="algorithms.html">Algorithms</a></li>
+        <li><a href="simulator.html">Simulator</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+    <h1>Disk Scheduling Algorithms</h1>
+    <p>Understand how each algorithm works and how it manages disk requests efficiently.</p>
+</section>
+
+<section class="page-section">
+
+<div class="info-box">
+    <h2>FCFS (First Come First Serve)</h2>
+    <p>Processes requests in the same order they arrive. It is simple but may cause high seek time.</p>
+</div>
+
+<div class="info-box">
+    <h2>SSTF (Shortest Seek Time First)</h2>
+    <p>Selects the nearest request first. It reduces seek time but may starve far requests.</p>
+</div>
+
+<div class="info-box">
+    <h2>SCAN</h2>
+    <p>Disk head moves in one direction servicing requests, then reverses direction like an elevator.</p>
+</div>
+
+<div class="info-box">
+    <h2>C-SCAN</h2>
+    <p>Head moves in one direction only. After reaching the end, it jumps back to start.</p>
+</div>
+
+<div class="info-box">
+    <h2>LOOK</h2>
+    <p>Similar to SCAN, but head only goes as far as the last request instead of disk end.</p>
+</div>
+
+<div class="info-box">
+    <h2>C-LOOK</h2>
+    <p>Like C-SCAN, but only moves up to the last request then jumps to first request.</p>
+</div>
+
+</section>
+
+<footer>
+    © 2026 Disk Scheduling Project | Created by Hammad
+</footer>
+
+</body>
+</html>

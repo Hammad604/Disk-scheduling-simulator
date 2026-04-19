@@ -1,0 +1,161 @@
+body {
+  font-family: Arial;
+  background: linear-gradient(135deg,#4facfe,#00f2fe);
+  margin: 0;
+  text-align: center;
+  min-height: 100vh;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0d1b52;
+  padding: 15px 30px;
+  color: white;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #00f2fe;
+}
+
+/* MAIN */
+h1 {
+  color: white;
+  margin-top: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+/* CARDS */
+.card {
+  background: white;
+  padding: 20px;
+  width: 350px;
+  border-radius: 12px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* INPUTS */
+input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* BUTTONS */
+button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #3b82f6;
+  color: white;
+  transition: transform 0.2s, background 0.3s;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background: #2563eb;
+}
+
+/* GRAPHS */
+.graphs {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 30px;
+  flex-wrap: wrap;
+}
+
+canvas {
+  width: 100% !important;
+  height: 300px !important;
+  background: white;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+/* OUTPUT */
+#output {
+  text-align: justify;
+  background: #d1fae5;
+  padding: 20px;
+  border-radius: 12px;
+  height: 350px;
+  overflow-y: auto;
+  line-height: 1.8;
+  font-family: Arial;
+}
+
+/* Each algorithm block */
+.algo-box {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px dashed #555;
+}
+
+/* Heading */
+.algo-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+/* Text lines */
+.algo-text {
+  margin-left: 10px;
+}
+
+.algo-text b {
+  color: #065f46;
+}
+
+/* FOOTER */
+body{
+  font-family: Arial;
+  background: linear-gradient(135deg,#4facfe,#00f2fe);
+  margin:0;
+  text-align:center;
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+}
+
+.footer{
+  margin-top:auto;
+  text-align:center;
+  padding:18px;
+  background:#0d1b52;
+  color:white;
+  font-size:16px;
+}
