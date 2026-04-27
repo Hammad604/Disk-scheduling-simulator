@@ -43,7 +43,7 @@ Understanding disk scheduling algorithms can be challenging when only studying t
 | 🎨 **Modern UI/UX** | Clean, responsive design with smooth navigation and shadow effects. |
 | 🔄 **Algorithm Comparison** | Run multiple algorithms sequentially to compare efficiency. |
 | 📱 **Responsive Layout** | Fully functional on desktops and tablets. |
-| ⚡ **Real-time Processing** | Instant results with zero latency. |
+
 
 ---
 
@@ -62,7 +62,7 @@ Understanding disk scheduling algorithms can be challenging when only studying t
 ### 3. **SCAN (Elevator Algorithm)**
 - Moves head from one end to other serving requests
 - Also known as elevator algorithm
-- Provides better fairness
+
 
 ### 4. **C-SCAN (Circular SCAN)**
 - SCAN variant that goes only in one direction
@@ -97,23 +97,14 @@ Upon execution, the simulator displays:
 
 ---
 
-## 🛠️ Technology Stack
+## 🛠️ Technology Used
 
-```yaml
-Frontend Framework:
-  - HTML
-  - CSS
-  - JavaScript  (Core logic)
+- HTML
+- CSS
+- JavaScript (Core Logic)
+- Chart.js (Graphs & Visualization)
+  
 
-Charting & Visualization:
-  - Chart.js
+## 🔧 Development Tools
 
-Styling & Icons:
-  - CSS Variables
-
-Development Tools:
-  - VS Code (IDE)
-  - Chrome DevTools (Debugging)
-
-Hosting Platform:
-  - GitHub Pages (Static hosting)
+- VS Code
