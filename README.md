@@ -73,7 +73,7 @@ GitHub Pages link will be available after deployment.
 ## 👨‍💻 Developed By
 
 **Hammad Riaz
- Hassan Razaq
+ ,Hassan Razaq,
  Manzar Shamim**  
 Computer Science Student
 
