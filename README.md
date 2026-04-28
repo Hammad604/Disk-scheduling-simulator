@@ -16,7 +16,7 @@
 
 <div align="center">
 
-<a href="https://hammad604.github.io/Disk-scheduling-simulator/ target="_blank">
+<a href="https://hammad604.github.io/Disk-scheduling-simulator/" target="_blank">
 
 <img src="https://img.shields.io/badge/🚀%20Launch%20Live%20Project-Open%20Website-0d6efd?style=for-the-badge&logo=google-chrome&logoColor=white" />
 
