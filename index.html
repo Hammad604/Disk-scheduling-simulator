@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Disk Scheduler</title>
 <link rel="stylesheet" href="style.css">
+<div class="menu-toggle" onclick="toggleMenu()">☰</div>
 </head>
 <body>
 
@@ -54,6 +55,10 @@
 <footer>
     © 2026 Disk Scheduling Project | Created by Hammad
 </footer>
-
+<script>
+function toggleMenu(){
+  document.querySelector("nav").classList.toggle("active");
+}
+</script>
 </body>
 </html>
