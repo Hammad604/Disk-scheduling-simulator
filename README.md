@@ -12,6 +12,21 @@
 [![Status](https://img.shields.io/badge/Status-Active-2E8B57)]()
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
+## 🌐 Live Demo
+
+<div align="center">
+
+<a href="https://hammad604.github.io/Disk-scheduling-simulator/ target="_blank">
+
+<img src="https://img.shields.io/badge/🚀%20Launch%20Live%20Project-Open%20Website-0d6efd?style=for-the-badge&logo=google-chrome&logoColor=white" />
+
+</a>
+
+<br><br>
+
+✨ Click the button above to open the live Disk Scheduling Simulator instantly.
+
+</div>
 </div>
 
 ---
@@ -46,21 +61,7 @@ Understanding disk scheduling algorithms can be challenging when only studying t
 
 
 ---
-## 🌐 Live Demo
 
-<div align="center">
-
-<a href="https://yourusername.github.io/disk-scheduling-simulator/" target="_blank">
-
-<img src="https://img.shields.io/badge/🚀%20Launch%20Live%20Project-Open%20Website-0d6efd?style=for-the-badge&logo=google-chrome&logoColor=white" />
-
-</a>
-
-<br><br>
-
-✨ Click the button above to open the live Disk Scheduling Simulator instantly.
-
-</div>
 
 ## 🧠 Implemented Algorithms
 
