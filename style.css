@@ -152,43 +152,51 @@ footer{
     margin-top:50px;
     background:#0d1b52;
 }
+/* MOBILE ONLY */
+
 @media (max-width: 768px){
 
+  .menu-toggle{
+
+    display: block;
+
+  }
+
   nav{
-    position: fixed;
+
+    position: absolute;
+
     top: 60px;
+
     left: 0;
+
     width: 100%;
 
-    background: #ffffff;
+    background: white;
+
+    display: none;   /* 👈 important */
+
+    flex-direction: column;
+
     box-shadow: 0 10px 20px rgba(0,0,0,0.15);
 
-    max-height: 0;
-    overflow: hidden;
-    transition: 0.4s ease;
-
-    z-index: 9999; /* 👈 IMPORTANT (over everything) */
   }
 
   nav.active{
-    max-height: 300px;
-    padding: 15px 0;
+
+    display: block;  /* 👈 open menu */
+
   }
 
   nav ul{
+
     flex-direction: column;
+
     text-align: center;
-    gap: 15px;
+
+    padding: 10px 0;
+
   }
-
-  nav ul li a{
-    color: #000;          /* 👈 FIX TEXT INVISIBLE ISSUE */
-    font-size: 18px;
-    text-decoration: none;
-  }
-
-}
-
   /* LOGO */
   .logo{
     font-size: 28px;
