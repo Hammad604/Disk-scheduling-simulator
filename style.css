@@ -254,10 +254,19 @@ footer{
     font-size: 16px;
   }
 
-  /* FOOTER */
+ 
+
+}
+@media (max-width: 768px){
+
+  body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
   footer{
-    font-size: 14px;
-    padding: 18px 10px;
+    margin-top: auto;
   }
 
 }
