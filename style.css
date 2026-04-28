@@ -154,6 +154,7 @@ footer{
 }
 @media (max-width: 768px){
 
+  /* NAV MENU */
   nav{
     position: fixed;
     top: 60px;
@@ -176,19 +177,21 @@ footer{
     flex-direction: column;
     gap: 15px;
     text-align: center;
+    padding: 0;
+    margin: 0;
   }
 
   nav ul li{
     width: 100%;
   }
 
-}s
-
+  /* LOGO */
   .logo{
     font-size: 28px;
     text-align: center;
   }
 
+  /* HERO */
   .hero{
     padding: 40px 15px;
   }
@@ -209,6 +212,7 @@ footer{
     margin: 10px auto;
   }
 
+  /* FEATURES */
   .features{
     grid-template-columns: 1fr;
     padding: 15px;
@@ -219,6 +223,7 @@ footer{
     padding: 25px;
   }
 
+  /* PAGE SECTION */
   .page-section{
     padding: 15px;
     margin: 30px auto;
@@ -237,8 +242,10 @@ footer{
     font-size: 16px;
   }
 
+  /* FOOTER */
   footer{
     font-size: 14px;
     padding: 18px 10px;
   }
+
 }
