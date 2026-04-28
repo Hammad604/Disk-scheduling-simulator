@@ -154,36 +154,40 @@ footer{
 }
 @media (max-width: 768px){
 
-  /* NAV MENU */
   nav{
     position: fixed;
     top: 60px;
     left: 0;
     width: 100%;
-    background: white;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+
+    background: #ffffff;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
 
     max-height: 0;
     overflow: hidden;
     transition: 0.4s ease;
+
+    z-index: 9999; /* 👈 IMPORTANT (over everything) */
   }
 
   nav.active{
     max-height: 300px;
-    padding: 10px 0;
+    padding: 15px 0;
   }
 
   nav ul{
     flex-direction: column;
-    gap: 15px;
     text-align: center;
-    padding: 0;
-    margin: 0;
+    gap: 15px;
   }
 
-  nav ul li{
-    width: 100%;
+  nav ul li a{
+    color: #000;          /* 👈 FIX TEXT INVISIBLE ISSUE */
+    font-size: 18px;
+    text-decoration: none;
   }
+
+}
 
   /* LOGO */
   .logo{
